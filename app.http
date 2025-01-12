@@ -20,7 +20,7 @@ Content-Type: application/json
 ### Create Invoice
 POST http://localhost:3000/invoices 
 Content-Type: application/json
-Authorization: Bearer your_jwt_token_here
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTczNjY2NTQwM30.aHQrCeJwHJceNcYSYpkybUN_mPscjV301Cgk_-15oNA
 
 {
     "invoice_number": "INV001",
@@ -32,20 +32,20 @@ Authorization: Bearer your_jwt_token_here
 
 ### Get All Invoices
 GET http://localhost:3000/invoices
-Authorization: Bearer your_jwt_token_here
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTczNjY2NTQwM30.aHQrCeJwHJceNcYSYpkybUN_mPscjV301Cgk_-15oNA
 
 ### Get Invoices with Filter
 GET http://localhost:3000/invoices?status=Pending
-Authorization: Bearer your_jwt_token_here
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTczNjY2NTQwM30.aHQrCeJwHJceNcYSYpkybUN_mPscjV301Cgk_-15oNA
 
 ### Get Invoices Sorted by Date
 GET http://localhost:3000/invoices?sort_by=date
-Authorization: Bearer your_jwt_token_here
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTczNjY2NTQwM30.aHQrCeJwHJceNcYSYpkybUN_mPscjV301Cgk_-15oNA
 
 ### Update Invoice
 PUT http://localhost:3000/invoices/1
 Content-Type: application/json
-Authorization: Bearer your_jwt_token_here
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTczNjY2NTQwM30.aHQrCeJwHJceNcYSYpkybUN_mPscjV301Cgk_-15oNA
 
 {
     "invoice_number": "INV001",
@@ -57,4 +57,4 @@ Authorization: Bearer your_jwt_token_here
 
 ### Delete Invoice
 DELETE http://localhost:3000/invoices/1
-Authorization: Bearer your_jwt_token_here
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTczNjY2NTQwM30.aHQrCeJwHJceNcYSYpkybUN_mPscjV301Cgk_-15oNA
